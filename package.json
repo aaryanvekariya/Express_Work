@@ -5,9 +5,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaryanvekariya/Express_Work.git"
+  },
+  "author": "Aryan",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaryanvekariya/Express_Work/issues"
+  },
+  "homepage": "https://github.com/aaryanvekariya/Express_Work#readme",
   "description": "",
   "dependencies": {
     "express": "^4.21.2"
