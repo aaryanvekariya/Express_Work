@@ -5,6 +5,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 package.json/
+package-lock.json/
+views/
+
 
 # Dependency directories
 node_modules/
