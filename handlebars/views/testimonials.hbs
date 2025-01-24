@@ -1,0 +1,11 @@
+<h1>{{title}}</h1>
+<div>
+  {{#each testimonials}}
+  <div>
+    <h3>{{name}}</h3>
+    <p>Rating: {{#repeat rating}}⭐{{/repeat}}</p>
+    <p>{{comment}}</p>
+    <p>Date: {{date}}</p> <!-- Just display the raw date -->
+  </div>
+   {{/each}}
+</div>

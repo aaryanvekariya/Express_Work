@@ -1,0 +1,12 @@
+<h1>Our Offerings</h1>
+<div>
+  {{#each offerings}}
+  <div style="{{#if available}}border: 2px solid green;{{else}}border: 2px solid red;{{/if}}">
+    <h2>{{name}}</h2>
+    <p>{{description}}</p>
+    <p>Price: ₹{{price}}</p>
+    <p>Duration: {{duration}}</p>
+    {{#unless available}}<p style="color: red;">Currently unavailable</p>{{/unless}}
+  </div>
+  {{/each}}
+</div>
